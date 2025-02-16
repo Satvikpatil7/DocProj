@@ -1,0 +1,52 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: Arial, sans-serif;
+}
+
+.app-container {
+  background-image: url('https://source.unsplash.com/1600x900/?technology'); /* Background image */
+  background-size: cover; /* Cover the entire background */
+  background-position: center; /* Center the background image */
+  display: flex; /* Use flexbox for centering */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  height: 100vh; /* Full viewport height */
+  color: #ffffff; /* White text */
+  text-align: center; /* Center the text */
+  position: relative; /* Position for overlay */
+}
+
+.content {
+  background-color: rgba(18, 18, 18, 0.8); /* Semi-transparent dark background */
+  padding: 40px; /* Add padding */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5); /* Shadow effect */
+}
+
+.app-heading {
+  font-size: 3em; /* Larger heading */
+  font-weight: bold; /* Bold text */
+  margin: 0; /* Remove default margin */
+}
+
+.app-tagline {
+  font-size: 1.5em; /* Slightly larger tagline */
+  margin: 20px 0; /* Margin for spacing */
+}
+
+.cta-button {
+  background-color: #ff5722; /* Button color */
+  color: #ffffff; /* Button text color */
+  border: none; /* Remove border */
+  padding: 10px 20px; /* Padding for button */
+  font-size: 1.2em; /* Button text size */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s; /* Smooth transition */
+}
+
+.cta-button:hover {
+  background-color: #e64a19; /* Darker shade on hover */
+}
